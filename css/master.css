@@ -1,0 +1,180 @@
+body { 
+	font-family: 'Lora', serif;
+	background-color: white;
+	color: black;
+	height: 100%;
+}
+
+h1, h2 {
+	font-family: 'Permanent Marker', cursive;
+}
+
+
+h1 { 
+	font-size: 56px;
+	font-weight: 100;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+h2 { 
+	font-size: 24px;
+	font-weight: 100;
+}
+
+p { 
+	font-size: 18px;
+	line-height: 24px
+}
+
+a { 
+	color: #FFFFFF;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+div {
+	padding: 50px;
+}
+
+#join ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FFFFF;
+}
+
+#join li {
+  float: right;
+  font-family: 'Lato', sans-serif;
+}
+
+#join li a {
+  display: block;
+  color: #191970;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#join li a:hover {
+	color: #FFFFFF;
+	background-color: #191970;
+	border: 3px solid #191970;
+	font-weight: 500;
+}
+
+
+#header img {
+	width: 100%;
+}
+
+.centered {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  font-family: 'Lato', sans-serif;
+}
+
+#header li {
+  float: left;
+}
+
+#header li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+}
+
+#header li a:hover {
+	background-color: #DCDCDC;
+	border: 1px solid #DCDCDC;
+	color: #333;
+}
+
+
+#life img {
+	width: 30%;
+	float: left;
+	padding: 25px;
+}
+
+#life figcaption {
+	float: left;
+	font-size: 10px;
+	font-style: italic;
+}
+
+.top a {
+	background-color: #333;
+	border: 1px solid #333;
+	padding: 10px;
+	border-radius: 10px;
+	color: #FFFFFF;
+	font-family: 'Lato', sans-serif;
+	margin: 10px;
+}
+
+.top a:hover {
+	background-color: #DCDCDC;
+	border: 1px solid #DCDCDC;
+	color: #333;
+}
+
+#instruments {
+	background-color: #DCDCDC;
+}
+
+#instruments img {
+	width: 30%;
+	float: right;
+	padding: 25px;
+}
+
+#labels img {
+	width: 30%;
+	float: left;
+	padding: 25px;
+}
+
+#change {
+	background-color: #DCDCDC;
+}
+
+.pquote {
+    float: right;
+    width: 400px;
+    background: #FFFFFF;
+    margin: 13px;
+	padding: 5px;
+	font-style: italic;
+	font-size: 8px;
+	border-left: 1px solid #191970;
+	text-align: justify;
+	color: #191970;
+}
+
+blockquote {
+    margin: 0;
+}
+
+footer {
+	background-color: #333;
+	color: #FFFFFF;
+	font-family: 'Lato', sans-serif;
+	width: 100%;
+	padding: 30px 0px;
+	text-align: right;
+}
